@@ -76,7 +76,7 @@ class _PomodoroHomePageState extends State<PomodoroHomePage> {
             borderRadius: BorderRadius.circular(20),
           ),
           title: Text(
-            _isWorkTime ? 'Break Time!' : 'Work Time!',
+            _isWorkTime ? 'Heure de la pause!' : 'Temps de travail!',
             style: const TextStyle(
               color: Color(0xFF6A1B9A),
               fontWeight: FontWeight.bold,
@@ -85,8 +85,8 @@ class _PomodoroHomePageState extends State<PomodoroHomePage> {
           ),
           content: Text(
             _isWorkTime
-                ? 'Take a short break!'
-                : 'Time to focus! Your break is over.',
+                ? 'Faites une petite pause !'
+                : 'Il est temps de se concentrer ! Votre pause est terminée.',
             style: const TextStyle(color: Color(0xFF6A1B9A)),
             textAlign: TextAlign.center,
           ),
@@ -113,7 +113,7 @@ class _PomodoroHomePageState extends State<PomodoroHomePage> {
                   ),
                 ),
                 child: Text(
-                  'START',
+                  'COMMENCER',
                   style: TextStyle(
                     color: Theme.of(context).colorScheme.onBackground,
                     fontWeight: FontWeight.bold,
@@ -137,7 +137,7 @@ class _PomodoroHomePageState extends State<PomodoroHomePage> {
           children: [
             // Title
             Text(
-              _isWorkTime ? 'Focus Time' : 'Break Time',
+              _isWorkTime ? 'Temps de concentration' : 'Temps de pause',
               style: GoogleFonts.nunito(
                 fontSize: 32,
                 fontWeight: FontWeight.bold,
@@ -270,7 +270,7 @@ class _PomodoroHomePageState extends State<PomodoroHomePage> {
 
             // Status Text
             Text(
-              _isWorkTime ? 'Focus on your task!' : 'Take a break!',
+              _isWorkTime ? 'Concentrez-vous sur votre tâche !' : 'Faites une pause !',
               style: GoogleFonts.nunito(
                 fontSize: 20,
                 fontWeight: FontWeight.w600,

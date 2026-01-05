@@ -1,4 +1,4 @@
-# timer
+# timer_pomodoro
 
 A new Flutter project.
 
